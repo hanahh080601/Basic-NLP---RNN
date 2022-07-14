@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rnn"
+version = "0.1.0"
+description = ""
+authors = ["hanahh080601 <hanlehngoc080601@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.1"
+ipykernel = "^6.15.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+poethepoet = "^0.10.0"
+
+[tool.poe.tasks]
+force-cuda11 = "python -m pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
