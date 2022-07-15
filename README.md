@@ -18,8 +18,9 @@
   * Save model.
 * Evaluating
   * Generate n next characters with given prime "Juliet".
-  * Result with 1000 next characters with given prime "Juliet":
-      `Juliet of my like,
+  * Result with 1000 next characters with given prime "Juliet":  
+    ```bash 
+    Juliet of my like,
     The words with a traches; but all my house
     With some mighty and such a man,
     If stands in tentience to the countery
@@ -47,7 +48,8 @@
     SUFFOLK:
     We will not been short on thy both a morn
     That I am steal. What is myself, make a stain to thy hand,
-    With honest said and sease their brother world`
+    With honest said and sease their brother world
+    ```
 
 
 ## Installation
